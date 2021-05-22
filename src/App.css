@@ -1,0 +1,40 @@
+.Container {
+  text-align: center;
+}
+.boardWrapper {
+  box-sizing: border-box;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-width: 1px;
+  border: white;
+}
+.trains {
+  color: yellow;
+  border: solid white;
+  padding: 1%;
+  border-width: 3px;
+}
+.trainListing,
+.boardHeader {
+  display: flex;
+  justify-content: space-between;
+  border-width: 1px;
+  border: white;
+}
+.arrivalTimes {
+  text-align: end;
+  display: flex;
+}
+
+.destinationHeader {
+  margin-left: 6rem;
+}
+.destinations {
+  margin-left: 3rem;
+}
